@@ -1,0 +1,27 @@
+.sidebar1 {
+  float: right;
+  width: auto;
+  height: auto;
+  padding: 0 15px 20px 25px;
+  text-align: justify;
+  font-size: 15px;
+}
+
+.sidebar1 img {
+  width: 30%;
+  height: 30%;
+  border-radius: 30px 30px 30px 30px;
+}
+
+@media screen and (max-width: 850px) {
+  .sidebar1 {
+      float: none;
+      width: auto;
+      height: auto;
+      padding: 15px 15px 20px 25px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+}   
+
