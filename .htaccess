@@ -1,0 +1,7 @@
+//Password Protect file
+<Files /staff.html>
+AuthName "Prompt"
+AuthType Basic
+AuthUserFile /.htpassword
+Require valid-user
+</Files>
