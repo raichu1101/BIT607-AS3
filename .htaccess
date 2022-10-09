@@ -1,5 +1,6 @@
 //Password Protect file
 <Files /staff.html>
+Allowoverride All
 AuthName "Prompt"
 AuthType Basic
 AuthUserFile /.htpasswd
@@ -8,3 +9,4 @@ Require valid-user
 
 //Change default directory page
 DirectoryIndex /home.html
+Allowoverride All
