@@ -1,7 +1,10 @@
 //Password Protect file
-<Files "staff.html">
+<Files /staff.html>
 AuthName "Prompt"
 AuthType Basic
-AuthUserFile /.htpassword
+AuthUserFile /.htpasswd
 Require valid-user
 </Files>
+
+//Change default directory page
+DirectoryIndex /home.html
