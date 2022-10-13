@@ -1,5 +1,2 @@
 {
-    "require": {
-        "phpunit/php-timer": "^5.0"
-    }
 }

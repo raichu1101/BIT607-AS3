@@ -11,17 +11,17 @@
         gtag('js', new Date());
         gtag('config', 'G-2SMRETG4MF');
     </script>
-    <title> Contact - Haukai Restaurant </title>
+    <title> Hours - Haukai Restaurant </title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <style> 
         body {
             height: 100vh;
             width: 100%;
-            background: url("/image/laketekapo.webp") no-repeat center center fixed;
+            background: url("/image/lake.webp") no-repeat center center fixed;
             background-position: center;
             -webkit-background-size: cover;
             -moz-background-size: cover;
@@ -43,11 +43,11 @@
             <!-- Navigation bar -->
             <div class="navlinks" id="links">
                 <ul>
-                    <li><a href="./home.html">Home</a></li>
-                    <li><a href="./menu.html">Menu</a></li>
-                    <li><a href="./hours.html">Hours</a></li>
-                    <li><a href="./reservation.html">Reservation</a></li>
-                    <li><a href="./contact.html">Contact</a></li>
+                    <li><a href="/web/home.html">Home</a></li>
+                    <li><a href="/web/menu.html">Menu</a></li>
+                    <li><a href="/web/hours.html">Hours</a></li>
+                    <li><a href="/web/reservation.html">Reservation</a></li>
+                    <li><a href="/web/contact.html">Contact</a></li>
                 </ul>
             </div>
         </nav>
@@ -56,29 +56,26 @@
     <!-- Content of the page -->
     <div class="content">
         <div class="textbox">
-            <br>
-            <h1>Contact Us</h1>
-            <br>
-            <!-- Image of Bay of Islands-->
-            <img src="/image/panorama.webp" class="center" alt="Panorama">
-            <br>
-            <br>
+            <h1>Opening Hours</h1>
             
-            <!-- Sidebar: contact details of Haukai Restaurant-->
+            <!-- Sidebar: information of opening hours-->
             <div class="sidebar">
-                <br> Haukai Restaurant
+                <br>The restaurant is only open in the evenings at the moment, 
+                <br>from Wednesday to Sunday inclusive.
                 <br>
-                <br>Address: 1 Island Street, Kerikeri, Bay of Islands, New Zealand
-                <br>
-                <br>Tel: 09 401 4019
-                <br>
-                <br>Email: <a href="mailto:info@haukairestaurant.co.nz" class="email">info@haukairestaurant.co.nz</a>
+                <br>Monday: Closed
+                <br>Tuesday: Closed
+                <br>Wednesday: 5pm - 9:30pm
+                <br>Thursday: 5pm - 9:30pm
+                <br>Friday: 5pm - 9:30pm
+                <br>Saturday: 5pm - 9:30pm
+                <br>Sunday: 5pm - 9:30pm
             </div>
             <br>
-            <!-- Embedded Google Maps-->
-            <div class="map-responsive">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2820.9276761100436!2d173.94868447017296!3d-35.22722703892151!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1szh-TW!2snz!4v1663766796877!5m2!1szh-TW!2snz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
+            <!-- Embedded Google Calendar-->
+            <div class="googleCalendar">
+                <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=Pacific%2FAuckland&src=MDNiZjdkYmRhMmM5ZTViN2ZjMjkxZDYzYWVlYjkxY2U4MWI5Njc3ZDg5OWM4NTYyZDc2NDljNWY3OWQ3OWZjZUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23E4C441" style="border:solid 1px #777; overflow: hidden;" width="800" height="600"></iframe>
+            </div> 
         </div>
     </div>
                
@@ -103,23 +100,24 @@
                     <a href="#" class="fa-brands fa-pinterest"></a>
                 </div>
 
-                <!-- link to privacy statement --> 
+                <!-- link to privacy statement -->
                 <div class="privacy" >
                     <p>
-                        <a href="./privacy.html">Privacy Statement</a> | © 2022 Haukai Restaurant All Rights Reserved.
+                        <a href="/web/privacy.html">Privacy Statement</a> | © 2022 Haukai Restaurant All Rights Reserved.
                     </p>
                     <!-- CSS Validator -->
                     <p>
                         <a href="http://jigsaw.w3.org/css-validator/check/referer">
                             <img style="border:0;width:88px;height:31px"
-                                src="http://jigsaw.w3.org/css-validator/images/vcss"
-                                alt="Valid CSS!" />
+                            src="http://jigsaw.w3.org/css-validator/images/vcss"
+                            alt="Valid CSS!" />
                         </a>
                     </p>
                 </div>
             </div>
         </div>           
-    </div>
+    </div>    
+    
 </body>
 
 </html>
