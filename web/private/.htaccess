@@ -1,6 +1,8 @@
 AuthType Basic
 AuthName "Restricted access"
-AuthUserFile "/.htpasswd"
+AuthUserFile "/app/.htpasswd"
 Require valid-user
 
-$ echo 'php_flag engine off' > .htaccess
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.php [QSA,L]
