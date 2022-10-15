@@ -13,7 +13,7 @@
   border-radius: 30px 30px 30px 30px;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 950px) {
   .sidebar1 {
       float: none;
       width: auto;
